@@ -1,4 +1,4 @@
-class Api::V1::PokemonsController < ApiController
+class Api::V1::PokemonsController < ApplicationController
   before_action :set_pokemon, only: %i[ show edit update destroy ]
 
   # GET /pokemons or /pokemons.json
