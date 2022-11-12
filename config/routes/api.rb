@@ -5,7 +5,7 @@ namespace :api do
       scope :users, module: :users do
         post '/', to: 'registrations#create', as: :user_registration
       end
-      resources :pokemons
+      # resources :pokemons
     end
   end
   
